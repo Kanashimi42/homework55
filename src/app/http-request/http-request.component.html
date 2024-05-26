@@ -1,0 +1,11 @@
+<h2>HTTP Headers</h2>
+<ul>
+    @for(user of users; track $index){
+        <li>
+            <p><span>id:</span> {{user?.id}}</p>
+            <p><span>name:</span> {{user?.name}}</p>
+            <p><span>username:</span> {{user?.username}}</p>
+            <p><span>email:</span> {{user?.email}}</p>
+        </li>
+    }
+</ul>

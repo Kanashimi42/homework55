@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+    margin: 0;
+
+    font-family: 'Montserrat', serif;
+}
+body {
+    margin: 5px;
+}
+p {
+    margin-bottom: 2px;
+}
+li {
+    margin-bottom: 15px;
+}
+span {
+    font-weight: 700;
+}
